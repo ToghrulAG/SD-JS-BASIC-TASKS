@@ -14,7 +14,7 @@
 //     56 -> 1 ədəd
 //     7 -> 3 ədəd
 
-// const myArr = [5, 2, "salam", "necesen", "salam", 56, 2, 7, 7, 7, 14, 14, 14];
+// const myArr = [5, 2, "salam", "necesen", "salam", 56, 2, 7, 7, 7, 7, 14, 14, 14];
 // let checkerArr = [];
 
 // for (let key of myArr) {
@@ -48,8 +48,8 @@
 //   ["At", 1], [1, "aT"] => false
 
 
-// const firstArr = ['4', '2', '4'];
-// const secondArr = ['4', '2', '4', 'salam', 13];
+// const firstArr = ['4', '2', '4', '14'];
+// const secondArr = ['4', '2', '4', 14];
 
 // let sortedFirstArr = firstArr.sort();
 // let sortedSecondArr = secondArr.sort();
@@ -152,7 +152,7 @@
 
 
 // let myResult = 1;
- 
+
 // let myArr = [1, false, 4, true, 6, true, 18, false, 3, true];
 
 // for(let i = 0; i < myArr.length; i++) {
@@ -175,16 +175,18 @@
 // if array = [1, "salam", 1, true, true, false, false, false, 5, "5"] then print "1 salam true false 5"
 // if array = [2, "class", 1, true, "class", 16, 17, 18,  "17"] then print "2 class 1 true 16 17 18"
 
-let myArr = [1, "salam", 1, true, true, false, false, false, 5, "5", 6, 525, 525];
-let uniqueElements = [];
+// let myArr = [1, "salam", 1, true, true, false, false, false, 5, "5", 6, 525, 525];
+// let uniqueElements = [];
 
-for(let i = 0; i < myArr.length; i ++) {
-    uniqueElements.push(myArr[i])
-    for(let j = 0; j < myArr.length; j ++){
-    }
-   
-}
-console.log(uniqueElements)
+// for (let key of myArr) {
+//     if(!uniqueElements.includes(key)) {
+//         uniqueElements.push(key)
+//     }
+// }
+// console.log(uniqueElements)
+
+
+// Arrayda iki eyni lakin tip olaraq ferqli elementler var (5 elementi) normalda bunlarin birini cixarmaliyam lakin olaraq aglima bir sey gelmediyi ucun tip olaraq unikal secilecek bir cavab getirdim ortaya
 
 
 
